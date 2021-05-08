@@ -18,8 +18,12 @@ ZSH_THEME="fishyy"
 
 echo -e "\033[1;37mHERE I GO\n"
 
+export PATH="$PATH:`pwd`/Files/flutter/bin"
+export PATH="$PATH:`pwd`/Files/android-studio/bin"
+
 alias vim="nvim"
 alias clock="tty-clock -c -C 7"
+alias cl="clear"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

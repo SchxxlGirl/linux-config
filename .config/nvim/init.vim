@@ -19,7 +19,7 @@ Plug 'blueyed/vim-diminactive'
 Plug 'sheerun/vim-polyglot'
 " Plug 'ryanoasis/vim-devicons'
 " Plug 'vim-syntastic/syntastic'
-Plug 'ninegrid/vim-supertab'
+" Plug 'ninegrid/vim-supertab'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
