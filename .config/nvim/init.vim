@@ -9,6 +9,7 @@ set mouse=a
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
+Plug 'nathanaelkane/vim-indent-guides'
 " Plug 'Xuyuanp/nerdtree-git-plugin'
 " Plug 'Lokaltog/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
@@ -68,3 +69,5 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
+
+let g:indent_guides_enable_on_vim_startup = 1
